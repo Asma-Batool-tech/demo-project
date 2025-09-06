@@ -1,0 +1,39 @@
+.features {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+
+}
+
+.post-meta {
+    p}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover {
+    background-image: url('./images/shibuya.jpg');
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    z-index: 1000;
+    background-color: aliceblue;
+    flex-direction: column;;
+}
+
+
+header > h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
